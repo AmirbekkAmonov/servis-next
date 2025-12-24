@@ -9,9 +9,30 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@lottiefiles/dotlottie-react": "^0.17.10",
+    "@mantine/carousel": "^8.3.10",
+    "@mantine/core": "^8.3.1",
+    "@mantine/dates": "^8.3.1",
+    "@mantine/form": "^8.3.1",
+    "@mantine/hooks": "^8.3.1",
+    "@mantine/modals": "^8.3.1",
+    "@mantine/notifications": "^8.3.1",
+    "@pbe/react-yandex-maps": "^1.2.5",
+    "@tanstack/react-query": "^5.90.2",
+    "@tanstack/react-query-devtools": "^5.90.2",
+    "axios": "^1.12.2",
+    "dayjs": "^1.11.18",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
+    "i18next": "^25.5.2",
     "next": "16.1.1",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-i18next": "^15.7.3",
+    "react-icons": "^5.5.0",
+    "sass": "^1.92.1",
+    "swiper": "^12.0.1",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -1,22 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Servis (Next.js + TypeScript)
 
-## Getting Started
+`servis-frontend` (React + Vite) loyihasidan Next.js (App Router) ga migratsiya qilingan UI.
 
-First, run the development server:
+## Ishga tushirish
+
+Development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Brauzer: `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Muhim ENV
+
+`.env.local` ichiga:
+
+- `NEXT_PUBLIC_API_URL` — backend base URL (masalan: `https://api.example.com`)
+- `NEXT_PUBLIC_YANDEX_API_KEY` — Yandex Maps API key (xaritaga kerak bo‘lsa)
+
+## Routelar
+
+- `/` (Home)
+- `/premium`
+- `/category` va `/category/[slug]`
+- `/service/[slug]`
+- Protected: `/profile`, `/orders`, `/add-service`, `/create-order`
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
